@@ -1,3 +1,5 @@
+import styles from '../styles/pages/SignUp.module.css';
+
 import { Helmet } from 'react-helmet';
 import SignUp from '../components/SignUp';
 
@@ -8,7 +10,7 @@ const SignUpPage = () => {
         <title>Sign up - Nhost</title>
       </Helmet>
 
-      <div className="h-screen flex items-center justify-center py-6">
+      <div className={styles.container}>
         <SignUp />
       </div>
     </>

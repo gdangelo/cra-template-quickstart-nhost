@@ -1,3 +1,5 @@
+import styles from '../styles/pages/SignIn.module.css';
+
 import { Helmet } from 'react-helmet';
 import SignIn from '../components/SignIn';
 
@@ -8,7 +10,7 @@ const SignInPage = () => {
         <title>Sign in - Nhost</title>
       </Helmet>
 
-      <div className="h-screen flex items-center justify-center py-6">
+      <div className={styles.container}>
         <SignIn />
       </div>
     </>
