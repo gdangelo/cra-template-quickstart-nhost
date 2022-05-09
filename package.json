@@ -14,8 +14,7 @@
     "nhost",
     "hasura",
     "graphql",
-    "apollo-client",
-    "tailwindcss"
+    "apollo-client"
   ],
   "author": "Gregory D'Angelo",
   "license": "MIT",
